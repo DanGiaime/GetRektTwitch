@@ -4,7 +4,8 @@
   "description": "puns roasts and reks",
   "main": "backend.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,6 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/dangiaime/getRektTwitch.git"
   },
+  "type": "module",
   "keywords": [
     "roxkstar74"
   ],
