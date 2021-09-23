@@ -51,6 +51,14 @@ app.get('/random', (req, res) => {
   getRandomRecord(table, res);
 });
 
+app.get('/newPun', (req, res) => {
+  res.redirect('https://airtable.com/shrOMJQu4gVaZcZlm')
+})
+
+app.get('/newRoast', (req, res) => {
+  res.redirect('https://airtable.com/shrwzh1aI1KSlkJm8')
+})
+
 app.listen(port, () => {
   console.log(`listening on port ${port}`);
 });
