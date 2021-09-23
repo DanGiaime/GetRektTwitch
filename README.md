@@ -1,10 +1,8 @@
 # Get Rekt, Nerd
-#### Puns and roast commands for your twitch channel
+## Puns and roast commands for your twitch channel
 
 ### How to add commands:
-Run these in your twitch chat:
-
-(Feel free to change the name of the commands)
+Run these in your twitch chat (Feel free to change the name of the commands)
 
 `!commands add !roast $(urlfetch https://rox-get-rekt.herokuapp.com/roast)`	
 
